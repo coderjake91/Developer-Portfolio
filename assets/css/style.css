@@ -1,0 +1,17 @@
+/* universal page styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: url("../images/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* body styling start */
+body {
+    color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
