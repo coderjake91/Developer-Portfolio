@@ -15,3 +15,13 @@ body {
     color: black;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+.app a {
+    color: black;
+    font-size: x-large;
+}
+
+.app img {
+    width: 1000px;
+    height: auto;
+}
