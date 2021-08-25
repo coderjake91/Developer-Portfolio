@@ -6,22 +6,21 @@
 }
 
 html {
-    background: url("../images/background.jpg") no-repeat center center fixed;
+    background: url("../images/rubiks-background.jpg") no-repeat center fixed;
     background-size: cover;
 }
 
 /* body styling start */
 body {
-    color: black;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(236, 230, 220);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.app a {
-    color: black;
-    font-size: x-large;
+header {
+    height: 100px;
+    width: auto;
+    background-color: black;
+    text-align: center;
+    font-size: xx-large;
 }
 
-.app img {
-    width: 1000px;
-    height: auto;
-}
