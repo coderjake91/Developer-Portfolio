@@ -5,22 +5,55 @@
     box-sizing: border-box;
 }
 
-html {
-    background: url("../images/rubiks-background.jpg") no-repeat center fixed;
-    background-size: cover;
-}
-
 /* body styling start */
 body {
-    color: rgb(236, 230, 220);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 header {
-    height: 100px;
+    height: 50px;
     width: auto;
     background-color: black;
     text-align: center;
     font-size: xx-large;
+    color: whitesmoke;
 }
+
+main {
+    background: url("../images/rubiks-background.jpg") no-repeat center fixed;
+    width: auto;
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 800px;
+    opacity: 0.7;
+}
+
+.scientist {
+    color: blue;
+}
+
+.software-engineer {
+    color: red;
+}
+
+.artist {
+    color: orange;
+}
+
+.dad {
+    color: yellow;
+}
+
+.inventor {
+    color: green;
+}
+
 
